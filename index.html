@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+
+
+		<!-- p5 core library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+
+		<!-- A-Frame core library -->
+		<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+
+		<!-- AFrameP5 library -->
+		<script src="https://craignyu.github.io/aframep5/libraries/aframep5-v2.1.js"></script>
+
+		<!-- Your p5 Sketch -->
+		<script src="sketch2.js"></script>
+
+		<!-- custom styles -->
+		<style>
+			body {
+				padding: 0;
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+
+
+		<!-- container to hold our VR scene - make sure to give this element an ID of 'VRScene' -->
+	    <a-scene id="VRScene">
+
+	    	<!--
+		       The 'a-assets' container is used to load in any external artwork you may want to use as "textures" for your objects. Ensure that this element has an ID of 'VRAssets'
+
+		       Textures can be loaded by creating a new 'a-asset' tag inside of the 'a-assets' container.
+		       When doing this you will need to make sure to give your textures a unique ID -
+		       this will be used by p5 to create new objects.
+
+		       Example:
+
+		       <img id="ITEM_ID_GOES_HERE" src="images/gold_block.png">
+				-->
+
+				<a-assets id="VRAssets">
+
+					<a-asset-item id="cow" src="cow/scene.gltf"></a-asset-item>
+
+					<img src="images/grass/grass_top.png" id="grass_top">
+					<img src="images/grass/grass_side.png" id="grass_side">
+					<img src="images/grass/grass_bottom.png" id="grass_bottom">
+
+					<img src="images/gravel/gravel_side.png" id="gravel_side">
+
+					<img src="images/sand/sand_side.png" id="sand_side">
+
+					<img src="images/sand/sand_side.png" id="sand_side">
+
+					<img src="images/log/oak_log_top.png" id="oak_log_top">
+					<img src="images/log/oak_log_side.png" id="oak_log_side">
+
+					<img src="images/log/birch_log_top.png" id="birch_log_top">
+					<img src="images/log/birch_log_side.png" id="birch_log_side">
+
+					<img src="images/plank/oak_plank_side.png" id="oak_plank_side">
+					<img src="images/plank/birch_plank_side.png" id="birch_plank_side">
+
+					<img src="images/stone/cobblestone_side.png" id="cobblestone_side">
+
+					<img src="images/stone/stone_side.png" id="stone_side">
+
+
+					<img src="images/jukebox/jukebox_side.png" id="jukebox_side">
+					<img src="images/jukebox/jukebox_top.png" id="jukebox_top">
+
+					<img src="images/ghast/ghast_top.png" id="ghast_top">
+					<img src="images/ghast/ghast_front.png" id="ghast_front">
+					<img src="images/ghast/ghast_side.png" id="ghast_side">
+					<img src="images/ghast/ghast_back.png" id="ghast_back">
+					<img src="images/ghast/ghast_leg.png" id="ghast_leg">
+					<!--<img src="images/stonebrick_mossy.png" id="stone">-->
+
+					<audio id="music" src="minecraft.mp3">
+						<a-entity sound="src: #music; autoplay: false"></a-entity>
+					</audio>
+
+				</a-assets>
+
+	    </a-scene>
+	</body>
+</html>
