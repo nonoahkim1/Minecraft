@@ -1,5 +1,6 @@
 # Minecraft
 Read the instruction below before playing!!!
+
 Play my Minecraft here! https://nonoahkim1.github.io/Minecraft/
 ![welcome](https://github.com/nonoahkim1/Minecraft/assets/83424774/edc52b2b-828c-4c2c-81ab-dd4c52b0f882)
 
