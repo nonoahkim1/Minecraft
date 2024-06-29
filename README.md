@@ -24,19 +24,16 @@ This project is a Minecraft-inspired 3D world developed using A-Frame and p5.js,
     * Press **C** to place a block on the translucent side of the hovering block.
     * Press **R** to make the hovering side of the block translucent red, and clicking on the block's side will remove the block.
  
-## Example (Click to play gif):
+## Example (Click to play):
 
 ### Inventory 
 
-<video width="600" height="400" controls>
-  <source src="https://github.com/nonoahkim1/Minecraft/assets/83424774/a9dfae1f-4023-4972-8042-e1754e6cb454" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<a href="https://github.com/nonoahkim1/Minecraft/assets/83424774/a9dfae1f-4023-4972-8042-e1754e6cb454">
+    <img src="https://github.com/nonoahkim1/Minecraft/assets/83424774/a9dfae1f-4023-4972-8042-e1754e6cb454/thumb.png" width="600" height="400" alt="Inventory">
+</a>
 
 ### Block Placement and Deletion
 
-<video width="600" height="400" controls>
-  <source src="https://github.com/nonoahkim1/Minecraft/assets/83424774/71a9179e-ecbe-42f8-860a-99e1febaa131" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+<a href="https://github.com/nonoahkim1/Minecraft/assets/83424774/71a9179e-ecbe-42f8-860a-99e1febaa131">
+    <img src="https://github.com/nonoahkim1/Minecraft/assets/83424774/71a9179e-ecbe-42f8-860a-99e1febaa131/thumb.png" width="600" height="400" alt="Block Placement and Deletion">
+</a>
