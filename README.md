@@ -27,10 +27,10 @@ This project is a Minecraft-inspired 3D world developed using A-Frame and p5.js,
 ## Example (Click to play gif):
 ### Inventory 
 
-<video width="600" controls>
-  <source src="https://github.com/nonoahkim1/Minecraft/blob/main/src/example/ex_inventory.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/nonoahkim1/Minecraft/assets/83424774/90f081e0-d23c-4506-a8cb-aef720b9f205
 
 ### Block Placement and Deletion
-![ex_block_placement_deletion](https://github.com/nonoahkim1/Minecraft/blob/main/src/example/ex_block_placement_deletion.mp4)
+
+https://github.com/nonoahkim1/Minecraft/assets/83424774/71a9179e-ecbe-42f8-860a-99e1febaa131
+
+
