@@ -27,7 +27,8 @@ This project is a Minecraft-inspired 3D world developed using A-Frame and p5.js,
 ## Example (Click to play gif):
 ### Inventory 
 
-https://github.com/nonoahkim1/Minecraft/assets/83424774/90f081e0-d23c-4506-a8cb-aef720b9f205
+<video src='https://github.com/nonoahkim1/Minecraft/assets/83424774/90f081e0-d23c-4506-a8cb-aef720b9f205' width=180/>
+
 
 ### Block Placement and Deletion
 
