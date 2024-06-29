@@ -1,5 +1,7 @@
 # Minecraft
 https://nonoahkim1.github.io/Minecraft/
+![welcome](https://github.com/nonoahkim1/Minecraft/assets/83424774/edc52b2b-828c-4c2c-81ab-dd4c52b0f882)
+
 
 ## Project Description
 This project is a Minecraft-inspired 3D world developed using A-Frame and p5.js, allowing users to explore, build, and modify the environment. Users can freely move and fly around the world, select blocks from an inventory, and place or remove blocks, similar to Minecraft's creative mode. The project showcases my skills in 3D graphics, interactive environments, and user interface design.
@@ -21,3 +23,5 @@ This project is a Minecraft-inspired 3D world developed using A-Frame and p5.js,
     * Hovering over a block makes the hovering side of the block translucent.
     * Press **C** to place a block on the translucent side of the hovering block.
     * Press **R** to make the hovering side of the block translucent red, and clicking on the block's side will remove the block.
+ 
+## Example:
