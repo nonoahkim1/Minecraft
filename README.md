@@ -24,8 +24,8 @@ This project is a Minecraft-inspired 3D world developed using A-Frame and p5.js,
     * Press **C** to place a block on the translucent side of the hovering block.
     * Press **R** to make the hovering side of the block translucent red, and clicking on the block's side will remove the block.
  
-## Example:
+## Example (Click to play gif):
 ### Inventory 
 ![ex_inventory](https://github.com/nonoahkim1/Minecraft/blob/main/src/example/ex_inventory.gif)
 ### Block Placement and Deletion
-![ex_inventory](https://github.com/nonoahkim1/Minecraft/blob/main/src/example/ex_block_placement_deletion.gif)
+![ex_block_placement_deletion](https://github.com/nonoahkim1/Minecraft/blob/main/src/example/ex_block_placement_deletion.gif)
