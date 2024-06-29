@@ -43,38 +43,38 @@ let sensor;
 let p_pressed = false;
 
 function preload() {
-	bgm = loadSound("minecraft.mp3");
-	toolbar_img = loadImage("images/toolbar/toolbar.png");
-	toolbar_highlight_img = loadImage("images/toolbar/toolbar_highlight.png");
-	inventory_img = loadImage("images/inventory_empty.png"); //inventory_empty
+	bgm = loadSound("src/sounds/minecraft.mp3");
+	toolbar_img = loadImage("src/images/toolbar/toolbar.png");
+	toolbar_highlight_img = loadImage("src/images/toolbar/toolbar_highlight.png");
+	inventory_img = loadImage("src/images/inventory_empty.png"); //inventory_empty
 
-	grass_item_inventory_img = loadImage("images/item_inventory/grass_item_inventory.png");
-	gravel_item_inventory_img = loadImage("images/item_inventory/gravel_item_inventory.png");
-	sand_item_inventory_img = loadImage("images/item_inventory/sand_item_inventory.png");
-	oak_log_item_inventory_img = loadImage("images/item_inventory/oak_log_item_inventory.png");
-	birch_log_item_inventory_img = loadImage("images/item_inventory/birch_log_item_inventory.png");
-	oak_plank_item_inventory_img = loadImage("images/item_inventory/oak_plank_item_inventory.png");
-	birch_plank_item_inventory_img = loadImage("images/item_inventory/birch_plank_item_inventory.png");
-	cobblestone_item_inventory_img = loadImage("images/item_inventory/cobblestone_item_inventory.png");
-	stone_item_inventory_img = loadImage("images/item_inventory/stone_item_inventory.png");
-	white_concrete_item_inventory_img = loadImage("images/item_inventory/white_concrete_item_inventory.png");
-	light_gray_concrete_item_inventory_img = loadImage("images/item_inventory/light_gray_concrete_item_inventory.png");
-	gray_concrete_item_inventory_img = loadImage("images/item_inventory/gray_concrete_item_inventory.png");
-	black_concrete_item_inventory_img = loadImage("images/item_inventory/black_concrete_item_inventory.png");
-	brown_concrete_item_inventory_img = loadImage("images/item_inventory/brown_concrete_item_inventory.png");
-	red_concrete_item_inventory_img = loadImage("images/item_inventory/red_concrete_item_inventory.png");
-	orange_concrete_item_inventory_img = loadImage("images/item_inventory/orange_concrete_item_inventory.png");
-	yellow_concrete_item_inventory_img = loadImage("images/item_inventory/yellow_concrete_item_inventory.png");
-	lime_concrete_item_inventory_img = loadImage("images/item_inventory/lime_concrete_item_inventory.png");
-	green_concrete_item_inventory_img = loadImage("images/item_inventory/green_concrete_item_inventory.png");
-	cyan_concrete_item_inventory_img = loadImage("images/item_inventory/cyan_concrete_item_inventory.png");
-	light_blue_concrete_item_inventory_img = loadImage("images/item_inventory/light_blue_concrete_item_inventory.png");
-	blue_concrete_item_inventory_img = loadImage("images/item_inventory/blue_concrete_item_inventory.png");
-	purple_concrete_item_inventory_img = loadImage("images/item_inventory/purple_concrete_item_inventory.png");
-	magenta_concrete_item_inventory_img = loadImage("images/item_inventory/magenta_concrete_item_inventory.png");
-	pink_concrete_item_inventory_img = loadImage("images/item_inventory/pink_concrete_item_inventory.png");
-	glass_item_inventory_img = loadImage("images/item_inventory/glass_item_inventory.png");
-	jukebox_item_inventory_img = loadImage("images/item_inventory/jukebox_item_inventory.png");
+	grass_item_inventory_img = loadImage("src/images/item_inventory/grass_item_inventory.png");
+	gravel_item_inventory_img = loadImage("src/images/item_inventory/gravel_item_inventory.png");
+	sand_item_inventory_img = loadImage("src/images/item_inventory/sand_item_inventory.png");
+	oak_log_item_inventory_img = loadImage("src/images/item_inventory/oak_log_item_inventory.png");
+	birch_log_item_inventory_img = loadImage("src/images/item_inventory/birch_log_item_inventory.png");
+	oak_plank_item_inventory_img = loadImage("src/images/item_inventory/oak_plank_item_inventory.png");
+	birch_plank_item_inventory_img = loadImage("src/images/item_inventory/birch_plank_item_inventory.png");
+	cobblestone_item_inventory_img = loadImage("src/images/item_inventory/cobblestone_item_inventory.png");
+	stone_item_inventory_img = loadImage("src/images/item_inventory/stone_item_inventory.png");
+	white_concrete_item_inventory_img = loadImage("src/images/item_inventory/white_concrete_item_inventory.png");
+	light_gray_concrete_item_inventory_img = loadImage("src/images/item_inventory/light_gray_concrete_item_inventory.png");
+	gray_concrete_item_inventory_img = loadImage("src/images/item_inventory/gray_concrete_item_inventory.png");
+	black_concrete_item_inventory_img = loadImage("src/images/item_inventory/black_concrete_item_inventory.png");
+	brown_concrete_item_inventory_img = loadImage("src/images/item_inventory/brown_concrete_item_inventory.png");
+	red_concrete_item_inventory_img = loadImage("src/images/item_inventory/red_concrete_item_inventory.png");
+	orange_concrete_item_inventory_img = loadImage("src/images/item_inventory/orange_concrete_item_inventory.png");
+	yellow_concrete_item_inventory_img = loadImage("src/images/item_inventory/yellow_concrete_item_inventory.png");
+	lime_concrete_item_inventory_img = loadImage("src/images/item_inventory/lime_concrete_item_inventory.png");
+	green_concrete_item_inventory_img = loadImage("src/images/item_inventory/green_concrete_item_inventory.png");
+	cyan_concrete_item_inventory_img = loadImage("src/images/item_inventory/cyan_concrete_item_inventory.png");
+	light_blue_concrete_item_inventory_img = loadImage("src/images/item_inventory/light_blue_concrete_item_inventory.png");
+	blue_concrete_item_inventory_img = loadImage("src/images/item_inventory/blue_concrete_item_inventory.png");
+	purple_concrete_item_inventory_img = loadImage("src/images/item_inventory/purple_concrete_item_inventory.png");
+	magenta_concrete_item_inventory_img = loadImage("src/images/item_inventory/magenta_concrete_item_inventory.png");
+	pink_concrete_item_inventory_img = loadImage("src/images/item_inventory/pink_concrete_item_inventory.png");
+	glass_item_inventory_img = loadImage("src/images/item_inventory/glass_item_inventory.png");
+	jukebox_item_inventory_img = loadImage("src/images/item_inventory/jukebox_item_inventory.png");
 }
 
 function setup() {
@@ -210,12 +210,12 @@ function setup() {
 	sensor = new Sensor();
 
 
-    // cow = new GLTF({
-	// 	asset: 'cow',
-	// 	x: -5, y: 0.4, z: 0,
-	// 	scaleX: 0.05, scaleY: 0.05, scaleZ: 0.05
-	// });
-	// world.add(cow);
+    cow = new GLTF({
+		asset: 'cow',
+		x: -5, y: 0.4, z: 0,
+		scaleX: 0.05, scaleY: 0.05, scaleZ: 0.05
+	});
+	world.add(cow);
 }
 
 function draw() {
