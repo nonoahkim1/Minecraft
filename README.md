@@ -14,7 +14,7 @@ This project is a Minecraft-inspired 3D world developed using A-Frame and p5.js,
 * JavaScript: Primary language used for scripting and game logic.
 * HTML/CSS: Used for structuring and styling the web interface.
 
-###Frameworks and Libraries:
+### Frameworks and Libraries:
 * A-Frame: Utilized for creating the VR world and handling 3D graphics.
 * p5.js: Employed for additional graphics and interactive elements.
 * p5.sound: Used for handling sound effects and background music.
